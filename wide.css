@@ -10,16 +10,17 @@ header {
 }
 
 main {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   margin: 50px auto;
   flex-direction: column;
 }
 
 .box {
   
-  width: 90%;
-  margin-bottom:20px;
   
+  margin-bottom:20px;
+  padding: 10px;
   position: relative;
   background-color: #eee;
 }
@@ -54,6 +55,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  
   background-color: #ff9a4b;
   color: #fff;
 }
